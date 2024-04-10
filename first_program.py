@@ -29,7 +29,9 @@ def f_4():
     return f'Вітаю, вас звати {us_name}, і вам {us_age} років'
 
 
-
+@app.route('/pg4')
+def f_5():
+    return 'Ще одна сторінка'
 
 
 if __name__ == '__main__':
