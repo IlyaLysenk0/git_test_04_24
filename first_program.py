@@ -33,6 +33,10 @@ def f_4():
 def f_5():
     return 'Ще одна сторінка'
 
+@app.route('/pg5')
+def f_5():
+    return 'І ще одна сторінка'
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=8000)
