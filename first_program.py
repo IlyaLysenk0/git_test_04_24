@@ -4,7 +4,7 @@ from flask import url_for, redirect, abort
 
 from flask import  render_template  , session
 
-
+a = 'hello'
 
 app = Flask(__name__)
 
